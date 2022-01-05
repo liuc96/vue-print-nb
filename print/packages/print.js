@@ -2,16 +2,19 @@
  * @Author: lee
  * @Date: 2021-05-10 11:45:50
  * @LastEditors: lee
- * @LastEditTime: 2021-05-20 15:39:43
+ * @LastEditTime: 2022-01-05 15:00:07
  * @Description: file content
  */
 import Print from './printarea.js';
+let map = new Map()
 /**
  * @file 打印
  * 指令`v-print`,默认打印整个窗口
  * 传入参数`v-print="'#id'"` , 参数为需要打印局部的盒子标识.
  */
 const addEvent = (element, type, callback) => {
+  if(map.has(element)) return false
+  map.set(element,callback)
   if (element.addEventListener) {
     element.addEventListener(type, callback, false);
   } else if (element.attachEvent) {

@@ -1,9 +1,9 @@
 {
-  "name": "vue-print-nb",
+  "name": "vue-print-nb-lc",
   "version": "1.7.5",
-  "description": "Vue plug-in, print! Good!",
+  "description": "hot fix for 1.7.5",
   "main": "lib/print.umd.min.js",
-  "author": "Power-kxLee",
+  "author": "liuc96",
   "private": false,
   "license": "MIT",
   "scripts": {

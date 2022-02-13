@@ -1,6 +1,6 @@
 {
   "name": "vue-print-nb-lc",
-  "version": "1.7.5.1",
+  "version": "1.7.6",
   "description": "hot fix for 1.7.5",
   "main": "lib/print.umd.min.js",
   "author": "liuc96",
